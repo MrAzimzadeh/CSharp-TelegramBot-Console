@@ -54,6 +54,7 @@ class Program
     }
 
     private static async Task UpdateHandler(ITelegramBotClient bot, Update update, CancellationToken arg3)
+    
     {
         if (update.Type == UpdateType.Message)
         {
